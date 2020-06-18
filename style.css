@@ -324,11 +324,19 @@ footer h5 {
   }
 
   .locations-head h3 {
-      padding: 0;
+      display: none;
   }
 
   .form-wrapper {
-      width: 100%;
+      width: 80%;
   }
+
+  .form-wrapper input{
+    width: 60%;
+}
+
+    textarea {
+        width: 90%;
+    }
   
 }
