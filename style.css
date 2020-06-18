@@ -318,4 +318,17 @@ footer h5 {
     justify-content: center;
     margin-top: 1rem;
   }
+
+  .locations-head h2 {
+      padding: 0.5rem 0;
+  }
+
+  .locations-head h3 {
+      padding: 0;
+  }
+
+  .form-wrapper {
+      width: 100%;
+  }
+  
 }
