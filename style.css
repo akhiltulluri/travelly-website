@@ -135,7 +135,7 @@ nav ul li {
 
 .locations-head {
   width: 90%;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .locations-head h3 {
@@ -319,20 +319,17 @@ footer h5 {
     margin-top: 1rem;
   }
 
-  .locations-head h2 {
-      padding: 0.5rem 0;
-  }
-
-  .locations-head h3 {
-      display: none;
+  #locations {
+    align-items: flex-start;
+  
   }
 
   .form-wrapper {
-      width: 80%;
+      width: 100%;
   }
 
   .form-wrapper input{
-    width: 60%;
+    width: 80%;
 }
 
     textarea {
