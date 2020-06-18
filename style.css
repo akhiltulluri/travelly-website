@@ -1,0 +1,321 @@
+/* Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 2.6rem;
+}
+
+li,
+button,
+input,
+p {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 3.8rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+h4,
+h5 {
+  font-size: 2.8rem;
+}
+
+.button {
+  padding: 2rem 6rem;
+  background: #4c6e97;
+  text-decoration: none;
+  color: white;
+  border: none;
+  color: white;
+  border-radius: 2rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: background 0.5s ease-in-out;
+}
+
+.button:hover {
+  background: #2f425a;
+}
+
+/* Nav section with hero */
+
+.main-head {
+  background-color: #131c27;
+  color: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  min-height: 10vh;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+nav ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: flex-end;
+  list-style: none;
+  align-items: center;
+}
+
+nav ul li {
+  margin: auto 2rem;
+  font-size: 1.5rem;
+}
+#logo {
+  flex: 2 1 40rem;
+  font-family: "Pattaya", sans-serif;
+  font-weight: normal;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url("/img/landing-page.jpg");
+  min-height: 90vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero h2 {
+  font-size: 4.8rem;
+}
+
+.hero h3 {
+  padding: 2rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* LOCATIONS SECTION */
+
+#locations {
+  min-height: 100vh;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url("/img/new-york-page.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.locations-head {
+  width: 90%;
+  margin: auto;
+}
+
+.locations-head h3 {
+  padding: 1rem 0;
+}
+
+.locations-head h2 {
+  padding: 4rem 0;
+  text-decoration: underline;
+  text-decoration-thickness: 0.5rem;
+}
+
+.cloud {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  z-index: -1;
+}
+
+/* Benefits section */
+
+.benefits-head {
+  background: #343c44;
+  padding: 3rem;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.benefits-head h3 {
+  padding: 1rem;
+}
+
+.cards {
+  width: 90%;
+  margin: auto;
+  padding: 3rem;
+  display: flex;
+  min-height: 70vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  text-align: center;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+  flex: 1 1 30rem;
+  min-height: 40vh;
+  margin: 2rem 4rem;
+}
+
+.cards img {
+  max-width: 15%;
+  margin: 2rem;
+}
+
+.card h4,
+.card p {
+  padding: 1rem;
+}
+
+.card h4 {
+  margin-top: 1rem;
+}
+
+.card-icon {
+  background: #2f425a;
+}
+
+/* Contact Us */
+
+#contact {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url("/img/contact-mountain.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-wrapper {
+  background: rgba(19, 28, 39, 0.8);
+  width: 75%;
+  margin: 1rem;
+  color: white;
+  border-radius: 20px;
+}
+
+.form-head {
+  padding: 2rem;
+  text-align: center;
+}
+
+.name-form,
+.email-form,
+.message-form {
+  padding: 2rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-wrapper label {
+  margin: 0 2rem;
+  font-size: 2rem;
+}
+
+.form-wrapper button {
+  width: 100%;
+  padding: 2rem;
+  margin-top: 3rem;
+  border-radius: 0 0 20px 20px;
+}
+
+.form-wrapper input,
+textarea {
+  margin: 1rem 2rem;
+  padding: 1rem 2rem;
+  width: 50%;
+  border-radius: 5px;
+  border: none;
+}
+
+textarea {
+  width: 60%;
+  font-size: 3rem;
+}
+
+/* Footer */
+
+footer {
+  color: white;
+  background: rgba(19, 28, 39, 1);
+}
+
+.footer-wrapper {
+  display: flex;
+  padding: 2rem;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  min-height: 10vh;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  flex: 1 1 40rem;
+  justify-content: flex-end;
+}
+
+footer ul li {
+  margin: auto 1rem;
+}
+footer h5 {
+  flex: 1 1 40rem;
+  font-weight: normal;
+  font-family: "Pattaya", sans-serif;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 950px) {
+  html {
+    font-size: 50%;
+  }
+
+  #logo {
+    text-align: center;
+  }
+
+  nav ul {
+    justify-content: center;
+    margin-top: 1rem;
+  }
+}
